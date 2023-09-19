@@ -23,13 +23,48 @@ Suivez le plan de montage pour construire TurboTronic. N'oubliez pas, chaque pi�
 
 ## Instructions :
 
-1. Ouvrez le logiciel Spike et créez un nouveau projet.
-2. Dans la barre d'outils, sélectionnez le bloc "Moteur".
-3. Glissez et déposez le bloc "Moteur" dans la zone de travail.
-4. Réglez la vitesse et la direction du moteur en utilisant les paramètres du bloc.
-5. Pour faire tourner TurboTronic à gauche ou à droite, nous devons contrôler chaque roue indépendamment. Pour cela, nous allons utiliser deux blocs "Moteur", un pour chaque roue.
-6. Réglez la vitesse et la direction de chaque moteur pour faire tourner TurboTronic.
-7. Testez votre programme en cliquant sur le bouton "Play".
+  ### 1. Préparation du terrain 🏁
+  
+  Allume ton ordinateur et ouvre le logiciel Spike. C'est là que la magie commence ! 🎩💻
+
+  <img src="https://github.com/G404-Atelier-Robots/Super-Nettoyeur/assets/62702495/e9ef3ae8-daef-45e1-8c39-a09e15e94c5d" width="500">
+
+  ### 2. Création de l'aventure 📖 
+
+  Crée un nouveau projet dans Spike choisis l'option `Blocs de mots`. C'est comme un nouveau chapitre dans l'histoire de ton robot.
+
+  <img src="https://github.com/G404-Atelier-Robots/Super-Nettoyeur/assets/62702495/3c85d4b3-4b27-4f6f-8679-85266e3ef5b9" width="500">
+
+  ### 3. Connexion du héros 🚀
+  
+  Connecte ton Super Nettoyeur à l'ordinateur en cliquant sur le bouton connecter et en suivant les étapes de connexion. Il est prêt pour l'aventure ! 🚀
+  
+  <img src="https://github.com/G404-Atelier-Robots/Super-Nettoyeur/assets/62702495/67d2e5ae-15ed-49a1-8123-89e643b83a27" width="500">
+
+  ### **Signal d'action🚦**
+
+  ### 4. Initialisation de la BaseMotrice
+  
+  Avant de pouvroir déplacer le robot il va falloir définir plusieurs paramètres pour indiquer à notre BaseMotrice comment elle doit se comporter :
+    - **Definir la taille et la distance parcouru pour un tour de roues** :gear:
+      Au lancement du programme placer le block **Définir la rotation du moteur sur 17.5 cm déplacé**
+      **17.5 cm** est la distance qu'il faut à la roue pour effectuer un tour complet :wheel: 
+    - **Definir l'emplacement de la connexion des moteurs sur la carte** :round_pushpin:
+      Au lancement du programme placer le block **Définir les moteur de déplacement pour C + D**
+      Si vous avez correctement suivi le schéma de montage les moteurs doivent être branché sur les emplacements C et D
+      Grâce à ce block nous indiquons au robot ou sont situé les roues sur la carte éléctronique :round_pushpin:
+    
+  
+  ### 5. Faire avancer le robot
+  Ajoute un bloc **"Quand le bouton E est pressé"**. C'est le signal pour ton Super Nettoyeur d'entrer en action ! 🚦
+      
+  - Quand le bouton **E** est pressé, Démarrer le moteur **A** à 100% de puissance !
+  - "Quand le bouton E est pressé". C'est comme si tu disais à ton robot "Attrape ça !" ✊
+  - <details>
+    <summary>Avoir de l'aide</summary>
+        Tu dois ajouter ces blocs pour permettre à la pince de se fermer lorsque tu appuies sur le bouton 
+        <img src="https://github.com/G404-Atelier-Robots/Super-Nettoyeur/assets/62702495/f9ea0abf-ba5b-44d7-8163-ab2d57fb78bd"  width="500">
+  </details>
 
 ## Aller plus loin :
 
