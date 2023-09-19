@@ -18,7 +18,7 @@ Cette séance devrait durer environ 2 heures. ⏰
 ## Construction :
 
 Suivez le plan de montage pour construire TurboTronic. N'oubliez pas, chaque pièce est importante ! 🛠️
-
+[here](https://www.geeksforgeeks.org/){:target="_blank"} 
 <a href="https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt06873e1b438a0d7e/5ec8e66f033ad5045f4c79a6/driving-base-bi-pdf-book1of1.pdf?locale=fr-fr" target="_blank"> **Montage de la Base Motrice** </a>
 
 ## Instructions :
