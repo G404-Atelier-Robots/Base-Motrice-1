@@ -46,14 +46,23 @@ Suivez le plan de montage pour construire TurboTronic. N'oubliez pas, chaque pi�
   ### 4. Initialisation de la BaseMotrice
   
   Avant de pouvroir déplacer le robot il va falloir définir plusieurs paramètres pour indiquer à notre BaseMotrice comment elle doit se comporter :
-    - **Definir la taille et la distance parcouru pour un tour de roues** :gear:
+  - **Definir la taille et la distance parcouru pour un tour de roues** :gear:      
+
       Au lancement du programme placer le block **Définir la rotation du moteur sur 17.5 cm déplacé**
+
       **17.5 cm** est la distance qu'il faut à la roue pour effectuer un tour complet :wheel: 
-    - **Definir l'emplacement de la connexion des moteurs sur la carte** :round_pushpin:
-      Au lancement du programme placer le block **Définir les moteur de déplacement pour C + D**
-      Si vous avez correctement suivi le schéma de montage les moteurs doivent être branché sur les emplacements C et D
-      Grâce à ce block nous indiquons au robot ou sont situé les roues sur la carte éléctronique :round_pushpin:
+
+  - **Definir l'emplacement de la connexion des moteurs sur la carte** :round_pushpin:
     
+      Au lancement du programme placer le block **Définir les moteur de déplacement pour C + D**
+
+      Si vous avez correctement suivi le schéma de montage les moteurs doivent être branché sur les emplacements C et D
+
+      Grâce à ce block nous indiquons au robot ou sont situé les roues sur la carte éléctronique :round_pushpin:
+  
+  - **Definir la vitesse de déplacement** :wind_blowing_face:
+
+         
   
   ### 5. Faire avancer le robot
   Ajoute un bloc **"Quand le bouton E est pressé"**. C'est le signal pour ton Super Nettoyeur d'entrer en action ! 🚦
